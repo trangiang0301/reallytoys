@@ -1,0 +1,5 @@
+config.local.yaml
+config_from_api.yaml
+.env
+*.key
+*.pem
