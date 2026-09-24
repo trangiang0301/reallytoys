@@ -14,5 +14,8 @@ else
 fi
 
 echo 'Config file installed successfully'
-python app.py &
-exec nginx -g "daemon off;"
+echo 'Starting Nginx on port 10000...'
+nginx
+echo 'Nginx started'
+echo 'Starting XiaoZhi...'
+exec python app.py
