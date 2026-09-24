@@ -3,3 +3,5 @@ config_from_api.yaml
 .env
 *.key
 *.pem
+
+data/.config.yaml
